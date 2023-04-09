@@ -9,7 +9,7 @@ struct Elem
     Info info;
 };
 
-void LAdd(Elem*& L, Elem*& T, Info value)
+void LAdd(Elem*& L, Elem* T, Info value)
 {
     Elem* tmp = new Elem;
     tmp->info = value;
