@@ -84,7 +84,7 @@ int main()
     cin >> imax;
     LIter(L, 0, imax);
     LPrint(L, L);
-    cout << "Enter the value of selected elments : ";
+    cout << "Enter the value of selected elements : ";
     cin >> value;
     cout << "The amount of elements with value of " << value << " : " << LCount(L, L, value, 0) << endl;
 }
